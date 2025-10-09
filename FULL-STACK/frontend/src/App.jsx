@@ -11,12 +11,14 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="/fakedata" element={<Fakedata />} />
-        <Route path="/signin" element={<Signin />} />
-        <Route path="/signup" element={<Signup />} />
-      </Routes>
+      <div className="pt- min-h-screen bg-blue-50">
+        <Routes>
+          <Route path="" element={<Home />} />
+          <Route path="/fakedata" element={<Fakedata />} />
+          <Route path="/signin" element={<Signin />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </div>
       <Footer />
     </>
 
