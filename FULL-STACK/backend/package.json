@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend For Ecommerce",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env app.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "payment",
+    "authentication"
+  ],
+  "author": "Rounak Basak",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "razorpay": "^2.9.6"
+  }
+}
