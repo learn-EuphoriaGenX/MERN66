@@ -12,6 +12,8 @@ app.get("/", (req, res) => {
 
 const userRoute = require('./src/routes/user.routes')
 app.use("/user", userRoute)
+const wishlistRoute = require('./src/routes/wishlist.route')
+app.use("/wishlist", wishlistRoute)
 
 
 connectToDb()
